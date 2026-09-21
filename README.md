@@ -5,10 +5,14 @@
 AnyConvert is two applications, and each has its own private GitLab
 repository:
 
-| App         | What it is                                          |
-| ----------- | --------------------------------------------------- |
-| Site        | The public converter — 415 conversions, 473 pages    |
-| Admin panel | The control panel that edits what the site shows     |
+| App         | What it is                                        | Where to test it              |
+| ----------- | ------------------------------------------------- | ----------------------------- |
+| Site        | The public converter — 415 conversions, 473 pages | https://www.anyconvert.top    |
+| Admin panel | The control panel that edits what the site shows  | URL shared privately          |
+
+Use `https://www.anyconvert.top` with the `www`. The bare `anyconvert.top` has
+no HTTPS certificate yet, so an `https://` link without the `www` will fail to
+load — that is known, and not worth filing.
 
 Fixes are made and deployed from those repositories. This tracker is where
 bugs and tasks are reported, discussed and signed off.
